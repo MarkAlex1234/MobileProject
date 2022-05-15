@@ -11,6 +11,7 @@ import {
   useColorScheme,
   View,
 } from 'react-native';
+import FlatButton from './src/assests/theme/styles';
 
 const App = () => {
   return (
@@ -22,10 +23,10 @@ const App = () => {
         source={require('./src/assests/images/logo.png')}
       />
       <View style={styles.seperator1}>
-        <Button title="PLAY" onPress={() => Alert.alert('WIP')} />
-        <Button title="SELECT VARIENT" onPress={() => Alert.alert('WIP')} />
-        <Button title="UPGRADES" onPress={() => Alert.alert('WIP')} />
-        <Button title="SETTINGS" onPress={() => Alert.alert('WIP')} />
+        <FlatButton text="play" onPress={() => Alert.alert('WIP')} />
+        <FlatButton text="select varient" onPress={() => Alert.alert('WIP')} />
+        <FlatButton text="upgrades" onPress={() => Alert.alert('WIP')} />
+        <FlatButton text="⚙︎ settings" onPress={() => Alert.alert('WIP')} />
       </View>
     </SafeAreaView>
   );
