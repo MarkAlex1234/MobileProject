@@ -13,12 +13,15 @@ const MainMenu = ({navigation}) => {
         source={require('../assests/images/logo.png')}
       />
       <View style={styles.seperator1}>
-        <FlatButton text="play" onPress={() => Alert.alert('WIP')} />
+        <FlatButton text="play" onPress={() => navigation.navigate('Game')} />
         <FlatButton
           text="select varient"
           onPress={() => navigation.navigate('Select Varient')}
         />
-        <FlatButton text="upgrades" onPress={() => Alert.alert('WIP')} />
+        <FlatButton
+          text="upgrades"
+          onPress={() => navigation.navigate('Upgrades')}
+        />
         <FlatButton
           text="⚙︎ settings"
           onPress={() => navigation.navigate('Settings')}
