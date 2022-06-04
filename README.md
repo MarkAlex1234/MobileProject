@@ -34,6 +34,8 @@ To run this project, you will need to run the following commands in your termina
 
 ## Deployment
 
+Ensure you are in the correct directory (../AwesomeTSProject)
+
 To deploy this project run
 
 ```bash
