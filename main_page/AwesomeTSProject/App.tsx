@@ -6,6 +6,7 @@ import * as React from 'react';
 import SelectVarientScreen from './src/screens/SelectVarient.Screen';
 import Upgrades from './src/screens/Upgrades.Screen';
 import Game from './src/screens/Game.Screen';
+import {Dimensions} from 'react-native';
 
 const Stack = createNativeStackNavigator();
 

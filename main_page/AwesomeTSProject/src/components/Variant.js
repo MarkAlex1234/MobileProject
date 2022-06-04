@@ -1,14 +1,18 @@
 import React from 'react';
 import {View} from 'react-native';
 
-const Variant = () => {
+const Variant = ({varientBottom, varientLeft}) => {
+  const varientWidth = 50;
+
   return (
     <View
       style={{
-        position: 'absolute',
+        position: 'relative',
         backgroundColor: 'blue',
         width: 50,
         height: 60,
+        left: varientLeft,
+        bottom: varientBottom,
       }}
     />
   );
