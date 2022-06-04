@@ -33,7 +33,7 @@ export default function Game({navigation}) {
   let obstaclesTimerId: NodeJS.Timer;
   let obstaclesTimerIdTwo: NodeJS.Timer;
 
-  //start bird falling
+  //start variant falling
   useEffect(() => {
     if (variantBottom > 0) {
       gameTimerId = setInterval(() => {
