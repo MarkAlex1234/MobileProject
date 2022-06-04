@@ -8,7 +8,6 @@ import {
   Alert,
 } from 'react-native';
 import FlatButton from '../assests/theme/flatButton';
-import styles from '../assests/theme/styles';
 
 export default function SelectVarientScreen({navigation}) {
   return (
