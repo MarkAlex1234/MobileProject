@@ -10,6 +10,7 @@ import {
 import {useEffect, useState} from 'react';
 import Obstacles from '../components/Obstacles';
 import Variant from '../components/Variant';
+import FlatButton from '../assests/theme/flatButton';
 
 export default function Game({navigation}) {
   const screenWidth = Dimensions.get('screen').width;
@@ -127,6 +128,10 @@ export default function Game({navigation}) {
           randomBottom={obstaclesNegHeightTwo}
           gap={gap}
           obstaclesLeft={obstaclesLeftTwo}
+        />
+        <FlatButton
+          text="Main Menu"
+          onPress={() => navigation.navigate('Main Menu')}
         />
       </View>
     </TouchableWithoutFeedback>
