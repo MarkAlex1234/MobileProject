@@ -7,14 +7,10 @@ export default function Game({navigation}) {
   return (
     <SafeAreaView style={{backgroundColor: 'purple', flex: 1}}>
       <View>
-        <GameEngine
-          style={{
-            position: 'absolute',
-            top: 0,
-            right: 0,
-            left: 0,
-            bottom: 0,
-          }}></GameEngine>
+        <FlatButton
+          text="Return"
+          onPress={() => navigation.navigate('Main Menu')}
+        />
       </View>
     </SafeAreaView>
   );
